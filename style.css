@@ -1,0 +1,46 @@
+.intro-section{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.section1{
+    background-image: url("./images/2nd.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: flex-start;
+    color: aliceblue;
+    }
+.section1 h1, .section2 h1{
+    padding-left: 7rem;
+}
+
+.section2{
+    background-image: url("./images/next.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    justify-content: flex-start;
+    }
+
+.about-section{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.about-section h3{
+    font-size: 15pt;
+    font-family: cursive;
+}
+.about-section img{
+    width: 150px;
+}
+
+.work-experience{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.work-experience img{
+    width: 150px;
+}    
