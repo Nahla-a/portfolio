@@ -44,3 +44,21 @@
 .work-experience img{
     width: 150px;
 }    
+
+.skills{
+    padding-left:3rem;
+    padding-right: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills .card{
+    margin: 5px;
+    width: 8rem;
+    
+}
+
+.skills-img{
+    width: 150px;
+}
