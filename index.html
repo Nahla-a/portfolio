@@ -11,46 +11,52 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #e3f2fd;">
+  <!-- Nav bar: -->
+  <div class="nav-bar-section p-5">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #e3f2fd;">
 
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="images/navbar.jpg" alt="" width="40" height="35" class="d-inline-block align-top">
+      <div class="container-fluid">
+        <a class="navbar-brand logo-name" href="#">
+          <img class="logo" src="images/logo1.jpg" alt="" width="40" height="35" class="d-inline-block align-top">
 
-        Nahla Abuelela</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-          <a class="nav-link" href="#about">About</a>
-          <a class="nav-link" href="#">Skills</a>
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Experience</a>
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Work</a>
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+          Nahla Abuelela</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#education-section">Education</a>
+            <a class="nav-link" href="#experience-section" tabindex="-1">Experience</a>
+            <a class="nav-link" href="#my-work-section" tabindex="-1" aria-disabled="true">My-Work</a>
+            <a class="nav-link" href="#contact-section" tabindex="-1" aria-disabled="true">Contact</a>
+          </div>
         </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </div>
+  <!-- end of nav-bar -->
+
+  <!-- Main-images: -->
   <div class="p-5">
     <div id="carouselExampleIndicators" class="carousel slide carousel-dark" data-bs-ride="carousel">
       <ol class="carousel-indicators">
         <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
         <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
-        
+
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <div class="intro-section section1" >
-            <h1> Hi..<br> I am Nahla</h1>
-            
+          <div class="intro-section section1">
+            <h1> Hi..<br> I'm Nahla</h1>
+
           </div>
         </div>
         <div class="carousel-item">
           <div class="intro-section section2">
-          <h1>I'm.. <br> a computer Science Teacher</h1>
+            <h1>I'm <br> a computer Science Teacher</h1>
           </div>
         </div>
       </div>
@@ -64,89 +70,400 @@
       </a>
     </div>
   </div>
-  <div class="about-section" id="about"> 
-    <img src="./images/about-me.png" alt="">
-    <h3>Highly skilled computer teacher has a bachelor’s degree in computer science and master’s degree in information systems as well as seven years of experience tutoring students in different computer subject areas. Specializes in getting students to understand the practical and theoretical sides of computers. </h3>
+  <!-- End of main images section -->
+
+  <!-- About Section: -->
+  <div class="about-section" id="about">
+    <img class="floral-logo" src="./images/floral-design.png" alt="">
+    <img class="main-point-img" src="./images/about-me.png" alt="">
+    <h3>Highly skilled computer teacher has a bachelor’s degree in computer science and master’s degree in information
+      systems as well as seven years of experience tutoring students in different computer subject areas. Specializes in
+      getting students to understand the practical and theoretical sides of computers. </h3>
   </div>
+  <!-- End of about section -->
+
+  <!-- Education: -->
+  <div class="p-5" id="education-section">
+    <img class="floral-logo" src="./images/floral-design.png" alt="">
+    <img class="main-point-img" src="./images/education.jpg" alt="">
+  </div>
+
+  <div class="accordion accordion-flush educational-section" id="accordionFlushExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingOne">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+          DEGREE:
+        </button>
+      </h2>
+      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+        data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+          <ul>
+            <li> Master Degree in Information System</li>
+            <li> Bachelor’s Degree in Computer Sceince</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingOne">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+          CERTIFICATES:
+        </button>
+      </h2>
+      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+        data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+          <ul>
+            <li> Software/Web Development Full Stack Bootcamp</li>
+            <li> Certificate in N/W Administration MCSE (Microsoft System Engineer)</li>
+            <li> Certificate in Business Administration</li>
+            <li> Certificate in ICDL (International Computer Driving Licience</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End of Education--->
+
+  <!-- Work Experince Section: -->
+  <div class="p-5" id="experience-section">
+    <img class="floral-logo" src="./images/floral-design.png" alt="">
+    <img class="main-point-img" src="./images/work-experience.jpg" alt="">
+  </div>
+  <div class="work-experience-section">
+    <div class="alert alert-primary " role="alert">
+      Round Rock ISD (2019 -Present): *Educational Assistant. *Substitute Teacher for Several Subjects and Grades.
+    </div>
+    <div class="alert alert-secondary" role="alert">
+      Al-Rwad International School (2013 - 2014): Computer Science Teacher.
+    </div>
+    <div class="alert alert-success" role="alert">
+      Pricess Nura University School (2009 - 2013): *Computer Science Teacher. *Technical Support Coordinator.
+    </div>
+    <!-- <div class="alert alert-danger" role="alert">
+    
+    </div>
+    <div class="alert alert-warning" role="alert">
+      A simple warning alert—check it out!
+    </div>
+    <div class="alert alert-info" role="alert">
+      A simple info alert—check it out!
+    </div>
+    <div class="alert alert-light" role="alert">
+      A simple light alert—check it out!
+    </div>
+    <div class="alert alert-dark" role="alert">
+      A simple dark alert—check it out! -->
+    <!-- </div> -->
+  </div>
+  <!-- End of work experience section -->
+
+  <!-- Skills section -->
+  <div class="p-5">
+    <img class="floral-logo" src="./images/floral-design.png" alt="">
+    <img class="main-point-img" src="./images/myskillstech.jpg" alt="">
+  </div>
+
+  <!-- 1st row: -->
   <div class="skills">
 
+    <div class="card card-gray">
+      <div class="card-body icon-gray">
+        <div class="card-icon ">
+          <img src="./images/html5.png" alt="">
+        </div>
+        <h5 class="card-title">HTML</h5>
+      </div>
+    </div>
+
+    <div class="card card-green">
+      <div class="card-body">
+        <div class="card-icon icon-green">
+          <img src="./images/css.png" alt="">
+        </div>
+        <h5 class="card-title">CSS</h5>
+      </div>
+    </div>
+
+    <div class="card card-black">
+      <div class="card-body">
+        <div class="card-icon icon-black">
+          <img src="./images/java-script.png" alt="">
+        </div>
+        <h5 class="card-title">Java Script</h5>
+      </div>
+    </div>
   </div>
 
-  <div class="work-experience experience">
-    <img src="./images/work-experience.jpg" alt="">
-    <div class="accordion accordion-flush" id="accordionFlushExample">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="flush-headingOne">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-            Teaching Experience
-          </button>
-        </h2>
-        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-          <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+  <!-- 2nd Row: -->
+  <div class="skills">
+
+    <div class="card card-green">
+      <div class="card-body">
+        <div class="card-icon icon-green">
+          <img src="./images/nodejs.png" alt="">
         </div>
+        <h5 class="card-title">Node.js</h5>
       </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="flush-headingTwo">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-            Web Developing Experience
-          </button>
-        </h2>
-        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-          <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+    </div>
+
+    <div class="card card-blue">
+      <div class="card-body">
+        <div class="card-icon icon-blue">
+          <img src="./images/reactjs.png" alt="">
         </div>
+        <h5 class="card-title">React.js</h5>
       </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="flush-headingThree">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-            Technical Support Expereince
-          </button>
-        </h2>
-        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-          <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+    </div>
+
+    <div class="card card-green">
+      <div class="card-body">
+        <div class="card-icon icon-green">
+          <img src="./images/sql-server.png" alt="">
         </div>
+        <h5 class="card-title">SQL</h5>
       </div>
     </div>
   </div>
+
+  <!-- 3rd Row: -->
   <div class="skills">
-    <img class="skills-img" src="./images/myskillstech.jpg" alt="">
-    <div class="card" >
-      <div class="card-body">
-        <h5 class="card-title">Java Script</h5>        
-      </div>
-    </div>
-    <div class="card" >
-      <div class="card-body">
-        <h5 class="card-title">Java Script</h5>        
-      </div>
-    </div>
+
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">Java Script</h5>        
+        <div class="card-icon">
+          <img src="./images/html5.png" alt="">
+        </div>
+        <h5 class="card-title">Mongo DB</h5>
       </div>
-    </div>  
+    </div>
+
+    <div class="card card-green">
+      <div class="card-body">
+        <div class="card-icon icon-green">
+          <img src="./images/java.png" alt="">
+        </div>
+        <h5 class="card-title">Java</h5>
+      </div>
+    </div>
+
+    <div class="card card-green">
+      <div class="card-body">
+        <div class="card-icon icon-green">
+          <img src="./images/flash.png" alt="">
+        </div>
+        <h5 class="card-title">Flash</h5>
+      </div>
+    </div>
+  </div>
+  <!-- End of skills section -->
+
+
+
+
+
+  <!-- my work section -->
+  <!-- <div class="p-5 my-work">
+    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <a class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</a>
+      </li>
+    </ul>
+    <div class="tab-content" id="pills-tabContent">
+      <div class="tab-pane fade show active tab-body" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+        <div class="card" style="width: 18rem;">
+          <img src="./images/2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+             <div class="card-body">
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="./images/2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+             <div class="card-body">
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="./images/2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+             <div class="card-body">
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">2</div>
+      <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">3</div>
+    </div>
+  </div>
+  <div class="p-5">
+  
+</div> -->
+
+  <!-- My-Work Section: -->
+  <div class="p-5" id="my-work-section">
+    <img class="floral-logo" src="./images/floral-design.png" alt="">
+    <img class="main-point-img" src="./images/nav_work2.png" alt="">
   </div>
 
-  <div class="skills">
-    <div class="card" >
-      
-      <div class="card-body">
-        <h5 class="card-title">Java Script</h5>        
+  <div class="p-5 my-work">
+    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <a class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" href="#pills-home" role="tab"
+          aria-controls="pills-home" aria-selected="true">Home</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" href="#pills-profile" role="tab"
+          aria-controls="pills-profile" aria-selected="false">Profile</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" href="#pills-contact" role="tab"
+          aria-controls="pills-contact" aria-selected="false">Contact</a>
+      </li>
+    </ul>
+    <div class="tab-content" id="pills-tabContent">
+      <!-- first tab - card1 (Clock-app)-->
+      <div class="tab-pane fade show active tab-body" id="pills-home" role="tabpanel"
+        aria-labelledby="pills-home-tab">
+        <div class="home-tab">
+          <div class="card my-work" style="width: 18rem; height: 100%;">
+            <img class="my-work-card-img" src="./images/clock2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">The Clock</h5>
+              <p class="card-text">This app used to show a digital and analog clock. I used HTM, CSS, and JS</p>
+              <div class="btn-group-section">
+                <a href="#" class="btn btn-primary btn">View My Code</a>
+                <a href="#" class="btn btn-primary btn">View My App</a>
+              </div>
+            </div>
+          </div>
+          <div class="card my-work" style="width: 18rem;">
+            <img class="my-work-card-img" src="./images/QUIZ-3D.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Quiz-App</h5>
+              <p class="card-text">I built this app to automatically generate the questions, shows the answers, and
+                calculate the result. I used HTML, CSS, and JS.</p>
+              <div class="btn-group-section">
+                <a href="#" class="btn btn-primary btn">View My Code</a>
+                <a href="#" class="btn btn-primary btn">View My App</a>
+              </div>
+            </div>
+          </div>
+          <div class="card my-work" style="width: 18rem;">
+            <img class="my-work-card-img" src="./images/todo2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Todo-app</h5>
+              <p class="card-text">I built this app to automatically generate the questions, shows the answers, and
+                calculate the result. I used HTML, CSS, and JS.</p>
+              <div class="btn-group-section">
+                <a href="#" class="btn btn-primary btn">View My Code</a>
+                <a href="#" class="btn btn-primary btn">View My App</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+
+
+
+      <div class="tab-pane fade  tab-body" id="pills-profile" role="tabpanel"
+        aria-labelledby="pills-profile-tab">
+        <div class="home-tab">
+        <div class="card my-work" style="width: 18rem;">
+          <img class="my-work-card-img" src="./images/QUIZ-3D.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Quiz-App</h5>
+            <p class="card-text">I built this app to automatically generate the questions, shows the answers, and
+              calculate the result. I used HTML, CSS, and JS.</p>
+            <div class="btn-group-section">
+              <a href="#" class="btn btn-primary btn">View My Code</a>
+              <a href="#" class="btn btn-primary btn">View My App</a>
+            </div>
+          </div>
+        </div>
+        <div class="card my-work" style="width: 18rem;">
+          <img class="my-work-card-img" src="./images/todo2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Todo-app</h5>
+            <p class="card-text">I built this app to automatically generate the questions, shows the answers, and
+              calculate the result. I used HTML, CSS, and JS.</p>
+            <div class="btn-group-section">
+              <a href="#" class="btn btn-primary btn">View My Code</a>
+              <a href="#" class="btn btn-primary btn">View My App</a>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">3</div>
     </div>
-    <div class="card" >
-      <div class="card-body">
-        <h5 class="card-title">Java Script</h5>        
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Java Script</h5>        
-      </div>
-    </div>  
   </div>
+
+
+  <!-- Contact Section: -->
+  <div class="p-5" id="contact-section">
+    <img class="floral-logo" src="./images/floral-design.png" alt="">
+    <img class="main-point-img" src="./images/contact-me.jpg" alt="">
+  </div>
+  <div class="contact-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 col-sm-3">
+          <img class="contact-img" src="./images/phone.png" alt="">
+          +1(512) 363-7526
+        </div>
+        <div class="col-6 col-sm-3">
+          <img class="contact-img" src="./images/gmail.png" alt="">
+          nabuelelan@gmail.com
+        </div>
+
+        <!-- Force next columns to break to new line -->
+        <div class="w-100"></div>
+        <div class="col-6 col-sm-3">
+          <img class="contact-img" src="./images/linkdin.png" alt="">
+          https://www.linkdin.com/nahla-abu-elela-2457b544
+        </div>
+        <div class="col-6 col-sm-3">
+          <img class="contact-img" src="./images/portfolio.png" alt="">
+          https://nahla-abuelela.tk
+        </div>
+        <div class="col-6 col-sm-3">
+          <img class="contact-img" src="./images/github.png" alt="">
+          https://github.com/nahla-a
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- End of contact section -->
+
+  <!-- End of page -->
   <div class="p-5">
 
   </div>
+  <!-- end of page -->
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"

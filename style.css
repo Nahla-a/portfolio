@@ -1,3 +1,15 @@
+/* Nav bar section */
+.nav-bar-section .logo{
+    width: 90px;
+    height: 90px;
+}
+
+.logo-name{
+    padding-right: 50px;
+}
+/* end of nav-bar */
+
+/* Main-section */
 .intro-section{
     height: 90vh;
     display: flex;
@@ -17,13 +29,26 @@
 }
 
 .section2{
-    background-image: url("./images/next.jpg");
+    background-image: url("./images/bg2.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
     justify-content: flex-start;
+    color:aliceblue;
     }
+    /* End of main section */
 
+/* main -points */
+ .main-point-img{
+    width: 180px;
+    }    
+ .floral-logo{
+    width: 65px;
+    }
+/* End of main points */
+
+
+/* About section */
 .about-section{
     padding-left: 3rem;
     padding-right: 3rem;
@@ -32,19 +57,26 @@
     font-size: 15pt;
     font-family: cursive;
 }
-.about-section img{
-    width: 150px;
-}
+/* End of about section */
 
-.work-experience{
+
+
+/* Educational section */
+.educational-section{
     padding-left: 3rem;
     padding-right: 3rem;
 }
+/* end of educational section */
 
-.work-experience img{
-    width: 150px;
-}    
 
+/* Work experience section */
+.work-experience-section{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+/* end of experience section */
+
+/* Skills section: */
 .skills{
     padding-left:3rem;
     padding-right: 3rem;
@@ -56,9 +88,116 @@
 .skills .card{
     margin: 5px;
     width: 8rem;
-    
+    box-shadow: 0px 0px 56px -8px rgba(120,0, 0, 0.50);
 }
 
-.skills-img{
-    width: 150px;
+.skills .card-icon{
+    width:50px;
+    height:50px;
+    position: absolute;
+    top:-25px;
+    right:30%;
+    border: 0px solid red;
+    background: red;
+    border-radius: 138px;
+    padding: 7px;
+
 }
+
+.skills .card-icon img{
+    width:100%;
+    height:100%;
+}
+
+.skills .icon-gray{
+    /* background: gray; */
+    border-color: gray;
+    }
+.skills .card-gray{
+    border-bottom: 4px solid gray;
+}
+
+.skills .icon-green{
+    background: green;
+    border-color: green;
+    }
+.skills .card-green{
+    border-bottom: 4px solid green ;
+}
+
+.skills .icon-black{
+    /* background: gray; */
+    border-color: black;
+    }
+    
+.skills .card-black{
+    border-bottom: 4px solid black;
+}
+
+.skills .icon-green{
+    background: green;
+    border-color: green;
+    }
+.skills .card-green{
+    border-bottom: 4px solid green ;
+}
+
+.skills .icon-blue{
+    background: blue;
+    border-color: blue;
+    }
+.skills .card-green{
+    border-bottom: 4px solid blue;
+}
+/* End of skills section
+
+
+/* Work experience section */
+.my-work .tab-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 5px;
+}
+
+.my-work .my-work-card-img{
+    width: 270px;
+    height:140px;
+}
+
+.my-work .btn{
+    border-radius: 25%;
+}
+
+.my-work .card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home-tab{
+    display: flex !important;
+    display: flex !important;
+    width: 100%;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.tab-body{
+    width: 100%;
+}
+
+
+
+/* end of my-work section */
+
+/* Contact-Section */
+
+.contact-section .contact-img{
+    width: 40px;
+}
+
+/* .contact-section .row2{
+    padding-top: 30px;
+} */
